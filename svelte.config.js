@@ -4,7 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 
 const config = deepmerge(defaultConfig, {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		inlineStyleThreshold: 0
 	}
 });
 
