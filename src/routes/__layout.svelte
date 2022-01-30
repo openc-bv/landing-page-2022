@@ -19,10 +19,6 @@
 	export let path: string = undefined;
 </script>
 
-<svelte:head>
-	<title>OpenC Demo App</title>
-</svelte:head>
-
 <NavigationBar {path} />
 
 <main class="oc-page-content">
