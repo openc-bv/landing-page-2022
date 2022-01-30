@@ -2,17 +2,17 @@
 
 Preconfigured SvelteKit template based on [this one](https://github.com/garraflavatra/sveltekit-template) and adapted for use within [OpenC](https://www.openc.nl). It ships with:
 
-- VS Code configuration files
-- `.nvmrc`
-- TypeScript
-- [OpenC component library](https://github.com/openc-bv/design-system)
+-   VS Code configuration files
+-   `.nvmrc`
+-   TypeScript
+-   [OpenC component library](https://github.com/openc-bv/design-system)
 
 ## Download
 
 Multiple options:
 
-- Use the GitHub template by clicking _Use this template_.
-- [Download the tarball](https://github.com/garraflavatra/sveltekit-template/tarball/main).
+-   Use the GitHub template by clicking _Use this template_.
+-   [Download the tarball](https://github.com/garraflavatra/sveltekit-template/tarball/main).
 
 ## Developing
 

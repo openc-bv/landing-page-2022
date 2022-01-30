@@ -3,11 +3,11 @@
 </script>
 
 <script lang="ts">
-	import Hero from "@openc-bv/design-system/components/hero.svelte";
+	import Hero from '@openc-bv/design-system/components/hero.svelte';
 	import image from './_media/sea-wave.jpg';
 
-	const title = "OpenC Insurance Solutions and InsurTech";
-	const description = "Create and control innovative insurance solutions and InsurTech.";
+	const title = 'OpenC Insurance Solutions and InsurTech';
+	const description = 'Create and control innovative insurance solutions and InsurTech.';
 	const domain = 'https://www.openc.nl';
 	const path = '/';
 </script>
@@ -33,7 +33,7 @@
 	<meta property="twitter:image" content={image} />
 </svelte:head>
 
-<div class="t"></div>
+<div class="t" />
 
 <Hero
 	fullHeight
