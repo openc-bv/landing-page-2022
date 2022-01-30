@@ -1,7 +1,6 @@
 {
-	"name": "@openc-bv/myapp",
+	"name": "@openc-bv/landing-page-january-2022",
 	"private": true,
-	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
