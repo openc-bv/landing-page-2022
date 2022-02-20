@@ -1,0 +1,15 @@
+@import '../../node_modules/@openc-bv/design-system/styles/vars';
+
+.oc-NavigationBar {
+	.items {
+		.item {
+			color: $blue !important;
+
+			.subitem {
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

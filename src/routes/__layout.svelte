@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
+	import '$lib/global.scss';
 	import { page } from '$app/stores';
 	import NavigationBar from '@openc-bv/design-system/components/navigation-bar.svelte';
 	import Footer from '$lib/components/footer.svelte';
