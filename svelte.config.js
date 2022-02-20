@@ -5,11 +5,7 @@ import adapter from '@sveltejs/adapter-static';
 const config = deepmerge(defaultConfig, {
 	kit: {
 		adapter: adapter(),
-		inlineStyleThreshold: 0,
-		browser: {
-			hydrate: false,
-			router: false
-		}
+		inlineStyleThreshold: 0
 	}
 });
 

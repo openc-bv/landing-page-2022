@@ -1,5 +1,5 @@
 <script lang="ts">
-	//import syImage from '../_media/website-by.png?w=300&img';
+	//import syImage from '$lib/media/website-by.png?w=300&img';
 
 	const year = new Date().getFullYear();
 </script>

@@ -1,25 +1,12 @@
-<script context="module" lang="ts">
-	import type { LoadInput, LoadOutput } from '@sveltejs/kit';
-
-	/** @type {import('@sveltejs/kit').Load} */
-	export function load({ url }: LoadInput): LoadOutput {
-		return {
-			props: {
-				path: url.pathname
-			}
-		};
-	}
-</script>
-
 <script lang="ts">
+	import { page } from '$app/stores';
 	import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
 	import NavigationBar from '@openc-bv/design-system/components/navigation-bar.svelte';
-	import Footer from './_components/footer.svelte';
-
-	export let path: string = undefined;
+	import Footer from '$lib/components/footer.svelte';
+	import { navigationItems } from '$lib/constants';
 </script>
 
-<NavigationBar {path} />
+<NavigationBar path={$page.url.pathname} items={navigationItems} />
 
 <main class="oc-page-content">
 	<slot />
