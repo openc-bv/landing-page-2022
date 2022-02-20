@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
+	import { page } from '$app/stores';
 	import NavigationBar from '@openc-bv/design-system/components/navigation-bar.svelte';
 	import Footer from '$lib/components/footer.svelte';
 	import { navigationItems } from '$lib/constants';
@@ -13,7 +13,3 @@
 </main>
 
 <Footer />
-
-<style lang="scss" global>
-	@import '../../node_modules/@openc-bv/design-system/styles/_base.scss';
-</style>
