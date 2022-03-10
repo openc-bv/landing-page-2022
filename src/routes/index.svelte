@@ -15,6 +15,7 @@
 		title="Sea of new possibilities"
 		subtitle="Create and control innovative insurance solutions"
 		{image}
+		backgroundElement="redgold"
 		buttons={[
 			{
 				label: 'Contact us',

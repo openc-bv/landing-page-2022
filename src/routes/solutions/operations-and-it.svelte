@@ -9,7 +9,11 @@
 	description="In operations and IT, every aspect of the insurance value streams come together as a large collection of interdependent activities."
 />
 
-<Hero title="Operations and IT" subtitle="Integrated approach to optimise your insurance business" />
+<Hero
+	title="Operations and IT"
+	subtitle="Integrated approach to optimise your insurance business"
+	backgroundElement="green"
+/>
 
 <Prose>
 	<h2>Efficient symphony</h2>

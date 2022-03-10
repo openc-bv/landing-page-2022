@@ -9,7 +9,11 @@
 	description="Designing next generation insurance business"
 />
 
-<Hero title="Insurtech and innovation" subtitle="Designing next generation insurance business" />
+<Hero
+	title="Insurtech and innovation"
+	subtitle="Designing next generation insurance business"
+	backgroundElement="gold"
+/>
 
 <Prose>
 	<h2>Digital transformation</h2>

@@ -9,7 +9,7 @@
 	description="OpenC & company is a network of innovative insurance business & IT solutions providers, for insurance and reinsurance companies."
 />
 
-<Hero title="Our story: insurance and innovation" />
+<Hero title="Our story: insurance and innovation" backgroundElement="blue" />
 
 <Prose>
 	<h2>Network organisation</h2>

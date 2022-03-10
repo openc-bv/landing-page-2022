@@ -9,7 +9,11 @@
 	description="Creating sustainable growth by an integrated approach"
 />
 
-<Hero title="Insurance business and product development" subtitle="Creating sustainable growth by an integrated approach" />
+<Hero
+	title="Insurance business and product development"
+	subtitle="Creating sustainable growth by an integrated approach"
+	backgroundElement="blue"
+/>
 
 <Prose>
 	<h2>Value</h2>
