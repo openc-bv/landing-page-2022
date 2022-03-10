@@ -25,7 +25,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../node_modules/@openc-bv/design-system/styles/vars';
+	@import '@openc-bv/design-system/styles/vars';
 
 	.home {
 		:global(.oc-Hero .inner .title),

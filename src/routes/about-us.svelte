@@ -24,5 +24,3 @@
 	<h2>Focus on your insurance business</h2>
 	<p>We offer insurance solutions that help you to realise your insurance business vision and goals, to transform your business and to create sustainable value for all stakeholders concerned.</p>
 </Prose>
-
-<!--<Hero subtitle="Interested? Get in touch!" buttons={[{label: 'Contact us', href: '/contact-us'}]} />-->
